@@ -1,5 +1,5 @@
 import Button from "@mui/material/Button";
-import Logo from '/kanini_logo.jpeg';
+import Logo from '/kanini_logo.png';
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
