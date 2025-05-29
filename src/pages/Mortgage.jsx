@@ -8,6 +8,7 @@ import Radio from "@mui/material/Radio";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Button from "@mui/material/Button";
 import calci from '../assets/Mortgage/assests/icon-calculator.svg'
+import TextField from "@mui/material/TextField";
 
 const Mortgage = () => {
   const [amount, setAmount] = useState(30000);
@@ -45,6 +46,7 @@ const Mortgage = () => {
               <OutlinedInput
                 id="mortgage"
                 variant="outlined"
+              
                 startAdornment={
                   <InputAdornment
                     position="start"
@@ -139,7 +141,7 @@ const Mortgage = () => {
                   </div>
 
                   <div
-                    className={`w-full p-2 rounded flex items-center border-2 ${
+                    className={`p-2 rounded flex items-center border-2 ${
                       mortgageType === "Interest" ? "border-[#CED591] bg-[#FAFAE0]" : "border-black bg-white"
                     } p-2 rounded`}
                   >
